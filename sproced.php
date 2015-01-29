@@ -51,4 +51,29 @@
 	</fieldset><!--buttons-->
 </form>
 
+<form action="shpproc.php" method="POST" id="sprocedimento">
+	<fieldset>
+	<legend>Consulta por procedimento</legend>
+		<label>Procedimento</label>
+		<select name="procedimento">
+			<option></option>
+				<?php
+				$sqlProc = mysql_query("SELECT * FROM procedimentos ORDER BY procedimento");
+				while ($linha = mysql_fetch_array($sqlProc)) {
+					$codigo = $linha['codigo'];
+					$procedimento = $linha['procedimento'];
+					echo "<option>".$procedimento."-".$codigo."</option>";
+				}
+				?>
+		</select><!--procedimento--><br />
+		
+		<label>Período</label>
+		<input type="text" name="mes" class="data"> / <input type="text" name="ano" class="data">
+	</fieldset>
+	
+	<fieldset class="buttons">
+		<input type="submit" class="button" value="Enviar">&nbsp;<input type="reset" class="button" value="Limpar">
+	</fieldset><!--buttons-->
+</form>
+
 <?php include "footer.php"; ?>
