@@ -88,7 +88,7 @@ form#novo input[name="naturalidade"], form#novo textarea[name="substancias"], fo
 	width:24.4em;
 }
 
-form#novo input[name="dn_d"], form#novo input[name="dn_m"], form#novo input[name="de_d"], form#novo input[name="de_m"], form#novo input[name="dn_a"], form#novo input[name="de_a"], form#novo input[name="di_d"], form#novo input[name="di_m"], form#novo input[name="di_a"], form#proced input[name="dp_d"], form#proced input[name="dp_m"], form#proced input[name="dp_a"] {
+.data {
 	width:4em;
 }
 
@@ -96,7 +96,7 @@ form#novo input[name="rg"], form#novo input[name="orgaorg"] {
 	width:9.9em;
 }
 
-form#novo select[name="genero"], form#novo select[name="demanda"], form#novo input[name="cpf"], form#novo input[name="cns"], form#novo select[name="status"], form#novo input[name="cidade"] {
+form#novo select[name="genero"], form#novo select[name="demanda"], form#novo input[name="cpf"], form#novo input[name="cns"], form#novo select[name="status"], form#novo input[name="cidade"], form#sprofissional select[name="profissional"] {
 	width:11.1em;
 }
 

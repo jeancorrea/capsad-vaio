@@ -77,7 +77,7 @@
 		<textarea name="outros"></textarea><br />
 
 		<label>Data</label>
-		<input type="text" name="dp_d"> / <input type="text" name="dp_m"> / <input type="text" name="dp_a"><br />
+		<input type="text" name="dp_d" class="data"> / <input type="text" name="dp_m" class="data"> / <input type="text" name="dp_a" class="data"><br />
 
 		<label>Pacientes</label>
 		<select name="pacientes" id="s1" onKeyPress="return insereTexto(event)">

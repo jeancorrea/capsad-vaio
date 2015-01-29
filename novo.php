@@ -9,7 +9,7 @@
 			<input type="text" name="nome" autofocus><br />
 
 			<label>Data de nascimento</label>
-			<input type="text" name="dn_d"> / <input type="text" name="dn_m"> / <input type="text" name="dn_a"><br />
+			<input type="text" name="dn_d" class="data"> / <input type="text" name="dn_m" class="data"> / <input type="text" name="dn_a" class="data"><br />
 
 			<label>Gênero</label>
 			<select name="genero">
@@ -56,7 +56,7 @@
 		<fieldset>
 		<legend>Documentação</legend>
 			<label>Identidade</label>
-			<input type="text" name="rg" placeholder="Número"><input type="text" name="orgaorg" placeholder="Órgão expedidor"><input type="text" name="de_d" placeholder="Data"> / <input type="text" name="de_m" placeholder="de"> / <input type="text" name="de_a" placeholder="emissão"><br />
+			<input type="text" name="rg" placeholder="Número"><input type="text" name="orgaorg" placeholder="Órgão expedidor"><input type="text" name="de_d" class="data" placeholder="Data"> / <input type="text" name="de_m" class="data" placeholder="de"> / <input type="text" class="data" name="de_a" placeholder="emissão"><br />
 
 			<label>CPF</label>
 			<input type="text" name="cpf"><br />
@@ -92,7 +92,7 @@
 			</select><!--status--><br />
 
 			<label>Início do tratamento</label>
-			<input type="text" name="di_d"> / <input type="text" name="di_m"> / <input type="text" name="di_a"><br />
+			<input type="text" name="di_d" class="data"> / <input type="text" name="di_m" class="data"> / <input type="text" name="di_a" class="data"><br />
 		</fieldset>
 
 		<fieldset class="buttons">
